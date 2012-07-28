@@ -172,6 +172,8 @@ void listDelNode(list *list, listNode *node)
     list->len--;
 }
 
+
+//返回链表的迭代器,direction确定是从头部开始，还是从尾部开始
 /* Returns a list iterator 'iter'. After the initialization every
  * call to listNext() will return the next element of the list.
  *
